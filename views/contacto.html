@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Descubre el mundo con Green World. Explora destinos internacionales y disfruta de experiencias únicas en tus viajes.">
+    <meta name="keywords" content="Green World, Viajes Internacionales, Destinos, Aventuras, Turismo, Reservaciones">
+    <meta name="author" content="hamza_aghmou">
+    <meta name="robots" content="index, follow">
+    <meta name="locality" content="España, Europa, America, Africa, Asia">
+
+    <!-- Etiqueta Open Graph para compartir en redes sociales -->
+    <meta property="og:title" content="Green World">
+    <meta property="og:description"
+        content="Descubre el mundo con Green World. Explora destinos internacionales y disfruta de experiencias únicas en tus viajes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.GreenWorld.com/">
+    <title>GreenWorld</title>
+
+    <!-- Otras etiquetas head como hojas de estilo CSS, enlaces a fuentes, etc. -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/contacto.css">
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--=============== PLATTEON ===============-->
+    <link rel="stylesheet" type="text/css" href="http://paletton.com/#uid=11m0u0klemqWvAVvrw4bMea1Xbl">
+    <!--=============== google api ===============-->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg9XH53pU2CFWw2h_ZRVr9NAfLrcLP_Vw&libraries=places"></script>
+
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        <nav>
+            <div class="logo" id="logo">
+                <a href="../index.html"><i class="fa-solid fa-earth-europe"></i>
+                    <span>GreenWorld</span>
+                </a>
+            </div>
+            <label for="drop" class="toggle"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="drop">
+            <ul class="menu">
+                <li>
+                    <label for="drop-1" class="toggle">Home</label>
+                    <a href="../index.html">Home</a>
+                    <input type="checkbox" id="drop-1">
+                    <ul>
+                        <li><a href="../index.html#seccion-1">Noticias</a></li>
+                        <li><a href="../index.html#seccion-3">Recomendaciones</a></li>
+                        <li><a href="../index.html#seccion-4">Especialidad</a></li>
+                    </ul>
+                </li>
+                <li>
+
+                    <label for="drop-2" class="toggle">Galeria</label>
+                    <a href="galeria.html">Galeria</a>
+                    <input type="checkbox" id="drop-2">
+                    <ul>
+                        <li><a href="galeria.html#slider">Top Destinos</a></li>
+                        <li><a href="galeria.html#galeria">Top Galeria</a></li>
+                    </ul>
+                </li>
+
+                <li>
+
+                    <label for="drop-3" class="toggle">Presupuesto</label>
+                    <a href="presupuesto.html">Presupuesto</a>
+                    <input type="checkbox" id="drop-3">
+                    <ul>
+                        <li><a href="presupuesto.html#top-eventos">Eventos</a></li>
+                        <li><a href="presupuesto.html#presupuesto">Presupuesto</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="drop-4" class="toggle">Contacto</label>
+                    <a href="contacto.html">Contacto</a>
+                    <input type="checkbox" id="drop-4">
+                    <ul>
+                        <li><a href="contacto.html#login-container">Login</a></li>
+                        <li><a href="contacto.html#informacion">Informacion</a></li>
+                        <li><a href="contacto.html#map-contacto">Ubicacion</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--==================== main ====================-->
+    <main>
+        <!--==================== seccion-1 ====================-->
+        <section id="login-container">
+            <div class="login-body">
+                <ul class="login-group">
+                    <li class="login-list active"><a href="#signup">Registrar</a></li>
+                    <li class="login-list"><a href="#login">Acceso</a></li>
+                </ul>
+                <div class="login-content">
+                    <div id="reg">
+                        <h1>¡Registrate gratis!</h1>
+                        <form action="#reg" method="post">
+                            <div class="reg-top">
+                                <div class="reg-box">
+                                    <label>Nombre:</label>
+                                    <input type="text" required autocomplete="off">
+                                </div>
+                                <div class="reg-box">
+                                    <label>Appellidos:</label>
+                                    <input type="text" required autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="reg-box">
+                                <label>Correo:</label>
+                                <input type="email" required autocomplete="off">
+                            </div>
+                            <div class="reg-box">
+                                <label>Contraseña:</label>
+                                <input type="password" required autocomplete="off">
+                            </div>
+                            <button type="submit" class="button button-block">Registrar</button>
+                        </form>
+                    </div>
+                    <div id="login">
+                        <h1>¡Bienvenido!</h1>
+                        <form action="#reg" method="post">
+                            <div class="reg-box">
+                                <label>Correo:</label>
+                                <input type="email" required autocomplete="off">
+                            </div>
+                            <div class="reg-box">
+                                <label>Contraseña:</label>
+                                <input type="password" required autocomplete="off">
+                            </div>
+                            <p class="forgot"><a href="#">¿Has olvidado tu contraseña?</a></p>
+                            <p class="forgot"><a href="#">¿Olvidaste el correo electrónico?</a></p>
+                            <button class="button button-block">Acceso</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== seccion-2 ====================-->
+        <section class="info-container" id="informacion">
+            <div class="info-contacto">
+                <div class="info-titulo">
+                    <h1>Informate gratis!</h1>
+                    <div class="info-texto">
+                        <p>
+                            "Descubre cómo GreenWorld puede transformar tu mundo con información gratuita y soluciones
+                            ecológicas innovadoras."
+                        </p>
+                    </div>
+                </div>
+                <div class="info-body">
+                    <div class="info-content">
+                        <i class="info-icon fa-solid fa-location-dot"></i>
+                        <p class="info-datos"><a href="#map" style="color: #ADCEA6;"> C.Real Arrabal, 26<br>Toledo</a>
+                        </p>
+                    </div>
+                    <div class="info-content">
+                        <i class="share-social fas fa-share-alt"></i>
+                        <div class="social-icons">
+                            <a href="https://www.youtube.com/" target="_blank" style="color: green;">
+                                <i class="social-icon fab fa-youtube"></i>
+                            </a>
+                            <a href="https://github.com/" target="_blank" style="color: green;">
+                                <i class="social-icon fab fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" style="color: green;">
+                                <i class="social-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://codepen.io/" target="_blank" style="color: green;">
+                                <i class="social-icon fab fa-codepen"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-content">
+                        <i class="info-icon fas fa-phone-alt"></i>
+                        <p class="info-datos">+34 665 85 29 51</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== seccion-3 ====================-->
+        <section id="map-contacto">
+            <h2>Donde Estamos?</h2>
+            <div class="mapa">
+                <div id="map"></div>
+                <div id="searchbox" class="searchbox">
+                    <div class="boton-busqueda">
+                        <button id="ruta">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="inp-busqueda">
+                        <input id="origen" type="text" placeholder="Ingrese su ubicación" style="width: 300px;">
+                    </div>
+                </div>
+                <div id="directionsPanel">
+                    <button id="cerrarPanel" onclick="cerrarPanel()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../imagenes/logotipo.png" alt="logotipo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Contactanos</h2>
+                <p><span><i class="fa-solid fa-envelope"></i></span> : greenworld@greenworld.es</p>
+                <p><span><i class="fa-solid fa-phone"></i></span> : 665 85 29 51</p>
+                <p><span><i class="fa-solid fa-location-dot"></i></span> : C. Real del Arrabal,
+                    26<br>Toledo<br>45003</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="social-icons"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-icons"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icons"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icons"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>GreenWorld</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script>
+        var regTab = document.querySelector('.login-group .login-list:first-child');
+        var loginTab = document.querySelector('.login-group .login-list:last-child');
+        var regContent = document.getElementById('reg');
+        var loginContent = document.getElementById('login');
+
+        function switchTab(tab) {
+            if (tab.classList.contains('active')) return;
+
+            regTab.classList.toggle('active');
+            loginTab.classList.toggle('active');
+
+            regContent.style.display = regTab.classList.contains('active') ? 'block' : 'none';
+            loginContent.style.display = loginTab.classList.contains('active') ? 'block' : 'none';
+        }
+
+        regTab.addEventListener('click', function (event) {
+            event.preventDefault();
+            switchTab(regTab);
+        });
+
+        loginTab.addEventListener('click', function (event) {
+            event.preventDefault();
+            switchTab(loginTab);
+        });
+
+    </script>
+    <script src="../js/js.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg9XH53pU2CFWw2h_ZRVr9NAfLrcLP_Vw&libraries=places&callback=initMap"></script>
+</body>
+
+</html>

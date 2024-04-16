@@ -1,0 +1,652 @@
+@import url(main.css);
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*=============== BASE CSS ===============*/
+:root {
+  /*=============== VARIABLES CSS ===============*/
+  --header-height: 3rem;
+  /*========== Colors ==========*/
+  /*  Palette URL: https://paletton.com/#uid=52L0g0kjwlzVouxv0BG6M8H118N  */
+
+  --Primary-black-color: #000000;
+  --primary-white-color: #ffffff;
+
+  --primary-color-0: #0E5300;
+  --Primary-color-1: #478F38;
+  --Primary-color-2: #478F38;
+  --Primary-color-3: #ADCEA6;
+  --Primary-color-4: #416419;
+
+  --Secondary-color-1: #061543;
+  --Secondary-color-2: #354574;
+  --Secondary-color-3: #8A91A6;
+
+  --third-color-1: #33ff00;
+  --third-color-2: #88ff00;
+  --third-color-3: #8bc548;
+  --third-color-4: #416419;
+  --third-color-5: #353502;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  --very-small-size: .2rem;
+  /*========== Font weight ==========*/
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-top: 1000;
+}
+
+ 
+ /*=============== eventos section ===============*/
+
+ .evento-wrapper {
+   display: -webkit-box;
+   display: flex;
+   flex-flow: wrap;
+   width: 1120px;
+   margin: 0 auto;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+
+ .evento-card {
+   width: 25%;
+   height: 360px;
+   border-radius: 15px;
+   margin: 45px 5px;
+   padding: 20px 0;
+   background: white;
+   position: relative;
+   display: -webkit-box;
+   display: flex;
+   -webkit-box-align: end;
+   align-items: end;
+   -webkit-transition: 0.4s ease-out;
+   transition: 0.4s ease-out;
+   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+ }
+
+ .evento-card:hover {
+   -webkit-transform: translateY(20px);
+   transform: translateY(20px);
+ }
+
+ .evento-card:hover:before {
+   opacity: 1;
+ }
+
+ .evento-card:hover .evento-info p {
+   opacity: 1;
+   -webkit-transform: translateY(-50px);
+   transform: translateY(-50px);
+ }
+
+ .evento-card:hover .evento-info button {
+   opacity: 1;
+   -webkit-transform: translateY(0px);
+   transform: translateY(0px);
+ }
+
+ .evento-card:hover .evento-info .evento-titulo {
+   color: white;
+   opacity: 1;
+   -webkit-transform: translateY(-160px);
+   transform: translateY(-160px);
+ }
+
+ .evento-card:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+   background: rgba(0, 0, 0, 0.6);
+   z-index: 2;
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+   opacity: 0;
+ }
+
+ .evento-card img {
+   width: 100%;
+   height: 100%;
+   -o-object-fit: cover;
+   object-fit: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 15px;
+ }
+
+ .evento-card .evento-info {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   z-index: var(--z-tooltip);
+   color: white;
+ }
+
+ .evento-card .evento-info .evento-titulo {
+   width: max-content;
+   text-align: center;
+   font-size: 25px;
+   font-weight: 800;
+   color: black;
+   opacity: 1;
+   position: absolute;
+   -webkit-transform: translateY(110px);
+   transform: translateY(110px);
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+ }
+
+ .evento-card .evento-info p {
+   height: 100px;
+   opacity: 0;
+   font-size: 16px;
+   margin: 8px;
+   -webkit-transform: translateY(30px);
+   transform: translateY(30px);
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+ }
+
+ .evento-card .evento-info button {
+   -webkit-transform: translateY(30px);
+   transform: translateY(30px);
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+   opacity: 0;
+   margin: 4px;
+   padding: 0.6rem;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   background: white;
+   color: black;
+   font-weight: var(--font-bold);
+   cursor: pointer;
+   -webkit-transition: 0.4s ease;
+   transition: 0.4s ease;
+ }
+
+ .evento-card .evento-info button:hover {
+   background: dodgerblue;
+   color: white;
+ }
+
+ .evento-badge1 {
+   z-index: var(--z-fixed);
+   position: absolute;
+   top: 20px;
+   right: 0px;
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   width: 120px;
+   height: 60px;
+   background-image: url("../imagenes/presupuesto/badge-left.png");
+   background-size: cover;
+ }
+
+ .evento-badge1 h4 {
+   padding-left: 15px;
+   font-weight: 800;
+ }
+
+ .evento-badge2 {
+   z-index: var(--z-fixed);
+   position: absolute;
+   top: 20px;
+   left: 0px;
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   width: 120px;
+   height: 60px;
+   background-image: url("../imagenes/presupuesto/badge-left.png");
+   background-size: cover;
+   transform: rotate(180deg);
+   /* Rotación de 180 grados */
+ }
+
+ .evento-badge2 h4 {
+   padding-right: 15px;
+   font-weight: 800;
+   transform: rotate(180deg);
+   /* Rotación de 180 grados */
+ }
+
+ @media screen and (min-width: 1141px) {
+   .evento-wrapper {
+     transition-duration: 1s;
+     /* Cambio de duración de transición para pantallas grandes */
+   }
+ }
+
+
+ @media screen and (max-width: 1140px) {
+   .evento-wrapper {
+     display: -webkit-box;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     width: 580px;
+     margin: auto;
+     padding: 20px;
+     justify-content: space-between;
+     align-items: center;
+     transition-duration: 1s;
+     /* Cambio de duración de transición para pantallas grandes */
+   }
+
+   .evento-card {
+     width: 80%;
+   }
+
+   .evento-card .evento-info .evento-titulo {
+     width: 70%;
+     -webkit-transform: translateY(110px);
+     transform: translateY(110px);
+   }
+
+   .evento-card .evento-info button {
+     padding: 5px;
+     font-weight: var(--font-normal);
+     font-size: 16px;
+
+   }
+
+   .evento-card .evento-info p {
+     height: 100px;
+     opacity: 0;
+     font-size: 14px;
+     margin: 8px;
+     -webkit-transform: translateY(30px);
+     transform: translateY(30px);
+     -webkit-transition: 0.5s;
+     transition: 0.5s;
+   }
+ }
+
+ @media screen and (max-width: 820px) {
+   .evento-wrapper {
+     display: -webkit-box;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     width: 400px;
+     margin: auto;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .evento-card {
+     width: 85%;
+
+   }
+
+   .evento-card .evento-info .evento-titulo {
+     -webkit-transform: translateY(110px);
+     transform: translateY(110px);
+   }
+ }
+
+ /*=============== Fin eventos section ===============*/
+ /*=============== contacto form section ===============*/
+
+ .contacto-bg {
+   height: 50vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../imagenes/presupuesto/contact-bg.jpg);
+   background-position: 50% 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+   color: var(--Primary-wihte-color);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .contacto-bg>div {
+   padding-top: var(--header-height);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+ }
+
+ .contacto-bg h2 {
+   font-size: var(--h2-font-size);
+   font-weight: var(--font-bold);
+   text-transform: uppercase;
+   padding: 1rem;
+   letter-spacing: 4px;
+ }
+
+ .linea div {
+   margin: 0 0.2rem;
+ }
+
+ .linea div:nth-child(1),
+ .linea div:nth-child(3) {
+   height: 3px;
+   width: 70px;
+   background: var(--Primary-color-1);
+   border-radius: 5px;
+ }
+
+ .linea {
+   display: flex;
+   align-items: center;
+ }
+
+ .linea div:nth-child(2) {
+   width: 10px;
+   height: 10px;
+   background: var(--Primary-color-1);
+   border-radius: 50%;
+ }
+
+ @media screen and (max-width: 820px) {
+
+   .contacto-bg h2 {
+     font-weight: var(--font-bold);
+     font-size: var(--h2-font-size);
+
+   }
+
+   .linea {
+     width: max-content;
+     height: max-content;
+     display: flex;
+     align-items: center;
+
+   }
+
+   .contacto-bg p {
+     /* display: flex; */
+     width: 90%;
+     font-size: smaller;
+     /* margin: 0 50px ;
+     padding: 0 50px; */
+   }
+ }
+
+ /*=============== Fin contacto section ===============*/
+ /*=============== presupuesto form section ===============*/
+ .presupuesto-body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 100%;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../imagenes/presupuesto/arbolmar_naturaleza_838667_640.jpg);
+   background-position: 50% 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+
+ }
+
+ .presupuesto-body .espacio {
+   width: 100%;
+   height: 40px;
+   background: transparent;
+
+
+ }
+
+.presupuesto-body h1 {
+   height: var(--header-height);
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+  padding: 30px;
+  margin-bottom: 20px;
+
+ } 
+
+ .form-body {
+   padding: 2rem 2rem;
+   background: rgba(0, 0, 0, 0.78);
+   width: 60%;
+   margin: 0 auto;
+ }
+
+
+ h2.form-titulo,
+ h2.form-evento {
+   display: inline-block;
+   text-align: left;
+   font-size: 20px;
+   color: #fff;
+   text-transform: capitalize;
+   margin: 0.5rem;
+   padding: 15px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   border-bottom: 2px solid var(--Primary-color-2);
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .form-content .form-contacto {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1rem;
+ }
+
+ .form-content input[type="text"],
+ .form-content input[type="email"],
+ .form-content input[type="tel"],
+ .form-content input[type="number"],
+ .form-content select,
+ .form-content input::placeholder {
+   width: 100%;
+   font-weight: 300;
+   color: var(--Secondary-color-3);
+   font-size: 14px;
+   letter-spacing: 1.2px;
+   padding: 10px 10px;
+   outline: none;
+   background: rgba(255, 255, 255, 0);
+   border: none;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+   box-sizing: border-box;
+ }
+
+ .form-content textarea {
+   width: 50%;
+   max-height: 200px;
+   font-weight: var(--font-medium);
+   color: var(--Secondary-color-3);
+   font-size: var(--normal-font-size);
+   letter-spacing: 1.2px;
+   padding: 10px 10px;
+   outline: none;
+   background: rgba(255, 255, 255, 0);
+   border: none;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+   box-sizing: border-box;
+   resize: vertical;
+   /* form-sising: content; todavia no esta soportado por todos los navigadores*/
+ }
+
+ .form-content select option {
+   background: #000;
+ }
+
+ .form-content .form-box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .form-content .form-condiciones {
+   margin: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+ }
+
+ .form-content input[type="submit"],
+ .form-content input[type="reset"] {
+   text-transform: capitalize;
+   background: var(--Primary-color-2);
+   color: var(--Primary-wihte-color);
+   padding: 0.5em 4em;
+   border: none;
+   font-weight: var(--font-normal);
+   font-size: var(--normal-font-size);
+   margin: 1em;
+   outline: none;
+   letter-spacing: 1px;
+   -webkit-transition: .5s all;
+   -moz-transition: .5s all;
+   transition: .5s all;
+   cursor: pointer;
+ }
+
+ .form-content input[type="submit"] {
+   margin-right: 1.5em;
+   background: var(--Secondary-color-1);
+ }
+
+ .form-content input[type="submit"]:hover {
+   background: var(--Primary-color-2);
+   color: var(--Primary-wihte-color);
+ }
+
+ .form-content input[type="reset"]:hover {
+   background: var(--Secondary-color-1);
+   color: var(--Primary-wihte-color);
+ }
+
+ .form-content label {
+   font-size: 13.5px;
+   color: rgba(255, 255, 255, 0.83);
+   letter-spacing: 2px;
+   font-weight: 400;
+   position: relative;
+   margin-bottom: 5px;
+   display: inline-block;
+   text-transform: capitalize;
+ }
+
+ .form-content .radio-section {
+   text-align: left;
+   margin: 1rem 0;
+   display: inline-flex;
+   justify-content: space-evenly;
+ }
+
+ .form-content .radio-section h6 {
+   display: inline;
+   margin-top: 10px;
+   color: #0091cd;
+   font-size: 19px;
+   text-transform: capitalize;
+   margin-bottom: .7em;
+   font-weight: 400;
+   letter-spacing: 2px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .form-content .radio-buttons {
+   justify-content: space-evenly;
+ }
+
+ .form-content .radio-section ul {
+   display: inline;
+   padding-left: 5rem;
+ }
+
+ .form-content .radio-section input[type="radio"] {
+   cursor: pointer;
+ }
+
+ .form-content .radio-section label {
+   color: #fff;
+   font-size: 13.5px;
+   font-weight: 400;
+   letter-spacing: 1px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ #presupuestoFinal {
+   width: fit-content;
+   height: 40px;
+   padding: 5px;
+   font-weight: bold;
+   color: var(--Primary-color-1);
+   border: 1px solid var(--Secondary-color-2);
+   border-radius: 5px;
+   box-sizing: border-box;
+   background-color: var(--Primary-color-3);
+   box-shadow: 0 4px 10px 4px rgba(48, 48, 48, 1);
+ }
+
+ #error-message {
+   color: red;
+   font-weight: bold;
+
+ }
+
+ @media (max-width:820px) {
+   .form-body {
+     width: 85%;
+   }
+
+   h2.form-titulo,
+   h3.form-titulo {
+     font-size: 21px;
+     padding: 0px 15px 7px 0px;
+   }
+
+   .checkbox-section h6 {
+     font-size: 17px;
+     letter-spacing: 1.5px;
+   }
+
+   ul.checkbox-buttons li {
+     margin: 0em 1em;
+   }
+
+   .form-body input[type="submit"],
+   .form-body input[type="reset"] {
+     padding: 0.5em 2em;
+   }
+ }
+
+
+ @media (min-width: 821px) and (max-width: 1200px) {
+   .form-body {
+     width: 80%;
+   }
+
+   .form-body input[type="submit"],
+   .form-body input[type="reset"] {
+     padding: 0.5em 2em;
+   }
+ }
+
+ /*=============== Fin presupuesto section ===============*/

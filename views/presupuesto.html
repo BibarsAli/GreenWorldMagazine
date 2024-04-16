@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Descubre el mundo con Green World. Explora destinos internacionales y disfruta de experiencias únicas en tus viajes.">
+    <meta name="keywords" content="Green World, Viajes Internacionales, Destinos, Aventuras, Turismo, Reservaciones">
+    <meta name="author" content="hamza_aghmou">
+    <meta name="robots" content="index, follow">
+    <meta name="locality" content="España, Europa, America, Africa, Asia">
+
+    <!-- Etiqueta Open Graph para compartir en redes sociales -->
+    <meta property="og:title" content="Green World">
+    <meta property="og:description"
+        content="Descubre el mundo con Green World. Explora destinos internacionales y disfruta de experiencias únicas en tus viajes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.GreenWorld.com/">
+    <title>GreenWorld</title>
+
+    <!-- Otras etiquetas head como hojas de estilo CSS, enlaces a fuentes, etc. -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/presupuesto.css">
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--=============== PLATTEON ===============-->
+    <link rel="stylesheet" type="text/css" href="http://paletton.com/#uid=11m0u0klemqWvAVvrw4bMea1Xbl">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        <nav>
+            <div class="logo" id="logo">
+                <a href="../index.html"><i class="fa-solid fa-earth-europe"></i>
+                    <span>GreenWorld</span>
+                </a>
+            </div>
+            <label for="drop" class="toggle"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="drop" >
+            <ul class="menu">
+                <li>
+                    <label for="drop-1" class="toggle">Home</label>
+                    <a href="../index.html">Home</a>
+                    <input type="checkbox" id="drop-1" >
+                    <ul>
+                        <li><a href="../index.html#seccion-1">Noticias</a></li>
+                        <li><a href="../index.html#seccion-3">Recomendaciones</a></li>
+                        <li><a href="../index.html#seccion-4">Especialidad</a></li>
+                    </ul>
+                </li>
+                <li>
+    
+                    <label for="drop-2" class="toggle">Galeria</label>
+                    <a href="galeria.html">Galeria</a>
+                    <input type="checkbox" id="drop-2">
+                    <ul>
+                        <li><a href="galeria.html#slider">Top Destinos</a></li>
+                        <li><a href="galeria.html#galeria">Top Galeria</a></li>
+                    </ul>
+                </li>
+    
+                <li>
+    
+                    <label for="drop-3" class="toggle">Presupuesto</label>
+                    <a href="presupuesto.html">Presupuesto</a>
+                    <input type="checkbox" id="drop-3">
+                    <ul>
+                        <li><a href="presupuesto.html#top-eventos">Eventos</a></li>
+                        <li><a href="presupuesto.html#presupuesto">Presupuesto</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="drop-4" class="toggle">Contacto</label>
+                    <a href="contacto.html">Contacto</a>
+                    <input type="checkbox" id="drop-4">
+                    <ul>
+                        <li><a href="contacto.html#login-container">Login</a></li>
+                        <li><a href="contacto.html#informacion">Informacion</a></li>
+                        <li><a href="contacto.html#map-contacto">Ubicacion</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--==================== Fin Header ====================-->
+    <!--==================== section 1 ====================-->
+    <section class="top-eventos" id="top-eventos">
+        <div class="contacto-bg">
+            <div>
+                <h2>Contactanos</h2>
+                <div class="linea">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p class="contacto-texto">"¡Únete a la comunidad de viajeros de GreenWorld!<br>
+                    Regístrate ahora para recibir ofertas exclusivas.
+                    Inspiración para tus viajes y acceso a experiencias inolvidables."
+                </p>
+            </div>
+        </div>
+        <div class="evento-wrapper">
+            <div class="evento-card">
+                <div class="evento-badge1">
+                    <h4 style="color:black;">10 Abr</h4>
+                </div>
+                <div class="evento-badge2">
+                    <h4 style="color:black;">100 €</h4>
+                </div>
+                <img src="https://live.staticflickr.com/65535/53625580299_ca5cf17c01_m.jpg" alt="Belgium">
+                <div class="evento-info">
+                    <div class="evento-titulo">Hermosa Bélgica</div>
+                    <p>Un rápido recorrido por las estrechas calles medievales de la ciudad gótica más confusa y
+                        antigua.</p>
+                    <button class="evento" data-precio="100" value="opcion1" onclick="window.location.href = '#presupuesto-body'; reservar(this);">
+                        RESERVAR AHORA
+                    </button>
+                </div>
+            </div>
+            <div class="evento-card">
+                <div class="evento-badge1">
+                    <h4 style="color:black;">21 Abr</h4>
+                </div>
+                <div class="evento-badge2">
+                    <h4 style="color:black;">120 €</h4>
+                </div>
+                <img src="https://live.staticflickr.com/65535/53625252846_bd42bb9df9_w.jpg" alt="París" >
+                <div class="evento-info">
+                    <div class="evento-titulo">El viaje a París</div>
+                    <p>Viaje a través de la ciudad más grande de Francia, discubriendo su sobrenombre "La Ciudad de las
+                        Luces".</p>
+                    <button class="evento" data-precio="120" value="opcion2" onclick="window.location.href = '#presupuesto-body'; reservar(this);">
+                        RESERVAR AHORA
+                    </button>
+                </div>
+            </div>
+            <div class="evento-card">
+                <div class="evento-badge1">
+                    <h4 style="color:black;">29 Abr</h4>
+                </div>
+                <div class="evento-badge2">
+                    <h4 style="color:black;">180 €</h4>
+                </div>
+                <img src="https://live.staticflickr.com/65535/53625580294_a8d7a8eeaa_w.jpg" alt="Suiza">
+                <div class="evento-info">
+                    <div class="evento-titulo">La Carretera a Suiza</div>
+                    <p>Ven con nosotros en un fascinante viaje a los Alpes junto con una historia muy rica.</p>
+                    <button class="evento" data-precio="180" value="opcion3" onclick="window.location.href = '#presupuesto-body'; reservar(this);">
+                        RESERVAR AHORA
+                    </button>
+                </div>
+            </div>
+            <div class="evento-card">
+                <div class="evento-badge1">
+                    <h4 style="color:black;">8 May</h4>
+                </div>
+                <div class="evento-badge2">
+                    <h4 style="color:black;">80 €</h4>
+                </div>
+                <img src="https://live.staticflickr.com/65535/53624357342_fae44a8a03_w.jpg" alt="Granada">
+                <div class="evento-info">
+                    <div class="evento-titulo">La Cultural Granada</div>
+                    <p>Juntos disfrutamos del edificio donde la arquitectura de los tres emperios se juntan.</p>
+                    <button class="evento" data-precio="80" value="opcion4" onclick="window.location.href = '#presupuesto-body'; reservar(this);">
+                        RESERVAR AHORA
+                    </button>
+                </div>
+            </div>
+            <div class="evento-card">
+                <div class="evento-badge1">
+                    <h4 style="color:black;">15 May</h4>
+                </div>
+                <div class="evento-badge2">
+                    <h4 style="color:black;">110 €</h4>
+                </div>
+                <img src="https://live.staticflickr.com/65535/53625252851_7ffd1b6241_w.jpg" alt="Marrakech">
+                <div class="evento-info">
+                    <div class="evento-titulo">Magical Marrakech</div>
+                    <p>Discubre la emocion del espectaculo de alfina donde la magia es viva.</p>
+                    <button class="evento" data-precio="110" value="opcion5" onclick="window.location.href = '#presupuesto-body'; reservar(this);">
+                        RESERVAR AHORA
+                    </button>
+                </div>
+            </div>
+            <div class="evento-card">
+                <div class="evento-badge1">
+                    <h4 style="color:black;">22 May</h4>
+                </div>
+                <div class="evento-badge2">
+                    <h4 style="color:black;">130 €</h4>
+                </div>
+                <img src="https://live.staticflickr.com/65535/53624357367_a9d148826b.jpg" alt="Tokio">
+                <div class="evento-info">
+                    <div class="evento-titulo">Tokio La Famosa</div>
+                    <p>Un viaje hacia el pasado y el futuro al mismo tiempo. ¿estas preparado?
+                    </p>
+                    <button class="evento" data-precio="130" value="opcion6" onclick="window.location.href = '#presupuesto-body'; reservar(this);">
+                        RESERVAR AHORA
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="contacto-bg">
+            <div>
+                <h2>Contactanos</h2>
+                <div class="linea">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p class="contacto-texto">"¡Únete a la comunidad de viajeros de GreenWorld!<br>
+                    Regístrate ahora para recibir ofertas exclusivas.
+                    Inspiración para tus viajes y acceso a experiencias inolvidables."
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--==================== Fin section 1 ====================-->
+    <!--==================== section 2 ====================-->
+    <section id="presupuesto" class="presupuesto-section">
+        <div class="presupuesto-body" id="presupuesto-body">
+            <h1>Contacto Y Presupuesto</h1>
+            <div class="form-body">
+                <h2 class="form-titulo">Datos Personal</h2>
+                <form onsubmit="return validarContacto()">
+                    <div class="form-content">
+                        <div class="form-contacto">
+                            <div>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" maxlength="15" required>
+                            </div>
+                            <div>
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="text" id="apellidos" name="apellidos" maxlength="40" required>
+                            </div>
+                            <div>
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" id="telefono" name="telefono" maxlength="9" required>
+                            </div>
+                            <div>
+                                <label for="correo">Correo electrónico:</label>
+                                <input type="email" id="correo" name="correo" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-content">
+                        <h2 class="form-titulo">Elegir Evento:</h2>
+                        <select id="evento" name="evento" onchange="calcularPresupuesto()" required>
+                            <option value="">Seleccionar evento</option>
+                            <option value="opcion1">Bélgica (100 €)</option>
+                            <option value="opcion2">París (120 €)</option>
+                            <option value="opcion3">Suiza (180 €)</option>
+                            <option value="opcion4">Granada (80 €)</option>
+                            <option value="opcion5">Marrakech (110 €)</option>
+                            <option value="opcion6">Tokio (130 €)</option>
+                        </select>
+                        <!-- <label for="numPersonas">Número de personas:</label> -->
+                        <input type="number" id="numPersonas" name="numPersonas" min="1" value="1" placeholder="1"
+                            onchange="calcularPresupuesto()">
+                    </div>
+                    <div class="form-content">
+                        <div class="radio-section">
+                            <h6>Extras:</h6>
+                            <ul class="radio-buttons">
+                                <li>
+                                    <input type="radio" id="radioButton1" name="extras" value="0"
+                                        onclick="calcularPresupuesto()">
+                                    <label>No Extras</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="radioButton2" name="extras" value="20"
+                                        onclick="calcularPresupuesto()">
+                                    <label>Alojamiento Individual (20 €)</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="radioButton3" name="extras" value="15"
+                                        onclick="calcularPresupuesto()">
+                                    <label>Coordinador de grupo (15 €)</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="radioButton4" name="extras" value="30"
+                                        onclick="calcularPresupuesto()">
+                                    <label>Actividades exclusivas (30 €)</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form-mensaje">
+                            <textarea name="Message" placeholder="Mensaje..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-content">
+                        <div id="presupuestoFinal"></div>
+                        <div class="form-condiciones">
+                            <input type="radio" id="condiciones" name="condiciones" required>
+                            <label for="condiciones">Acepto las condiciones de privacidad</label>
+                        </div>
+                        <div class="form-box">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="reset">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="espacio"></div>
+        </div>
+    </section>
+    <!--==================== Fin section 2 ====================-->
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#index">
+                        <img src="../imagenes/home/logotipo.png" alt="logotipo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Contactanos</h2>
+                <p><span><i class="fa-solid fa-envelope"></i></span> : greenworld@greenworld.es</p>
+                <p><span><i class="fa-solid fa-phone"></i></span> : 665 85 29 51</p>
+                <p><span><i class="fa-solid fa-location-dot"></i></span> : C/ RIO JARAMA 89, 45007 TOLEDO, EPAÑA</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="social-icons"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-icons"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icons"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icons"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>GreenWorld</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="../js/js.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+{
+    "destinos": [
+        {
+            "source": {
+                "id": "national-geographic",
+                "name": "National Geographic"
+                
+            },
+            "author": "Laura Rodriguez",
+            "title": "Los mejores lugares para ver los cerezos en flor en EE. UU.",
+            "description": "Obtén información sobre las predicciones para la floración de los cerezos en primavera y planifica tu viaje para presenciar este hermoso fenómeno natural.",
+            "url": "https://www.nationalgeographic.com/travel/article/cherry-blossom-bloom-predictions-spring",
+            "urlToImage": "https://i.natgeofe.com/n/f552ab94-e4be-4966-ab38-6afd7ccbd1d3/cherry-blossom-washington-dc_3x2.jpg?w=718&h=479",
+            "publishedAt": "2024-02-20 T09:15:00Z",
+            "content": "La tradición de los festivales de los cerezos en flor en los EE. UU. se remonta a 1935 en Washington, D.C. Fue entonces cuando se lanzó el festival Nacional de los Cerezos en Flor en honor a la donación de Japón en 1912 de unos 3.000 árboles.."
+        },
+        {
+            "source": {
+                "id": "lonely-planet",
+                "name": "Lonely Planet"
+            },
+            "author": "Lonely Planet",
+            "title": "Descubre el Templo de Horus en Edfu, Egipto",
+            "description": "Explora el impresionante Templo de Horus en Edfu, Egipto, una maravilla arquitectónica antigua.",
+            "url": "https://www.lonelyplanet.com/egypt/edfu/attractions/temple-of-horus/a/poi-sig/1073702/1298044",
+            "urlToImage": "https://cdn.getyourguide.com/img/tour/63fbdc252458e.jpeg/98.jpg",
+            "publishedAt": "2024-02-20 T11:30:00Z",
+            "content": "Este templo ptolemaico, construido entre el 237 y el 57 a.C., es uno de los monumentos antiguos mejor conservados de Egipto. Preservado por la arena del desierto, que llenó el lugar después de que se prohibiera el culto pagano, el templo está dedicado a Horus, el hijo vengador de Isis y Osiris. Con su techo intacto, es también uno de los edificios antiguos más atmosféricos."
+        },
+        {
+            "source": {
+                "id": "travel-leisure",
+                "name": "Travel + Leisure"
+            },
+            "author": "Sophie Turner",
+            "title": "50 Millas de paseo, con vistas altas, playas y más",
+            "description": "A Australia podia ser tu proximo destio, optimiza tu equipaje y evita llevar cosas innecesarias.",
+            "url": "https://www.travelandleisure.com/bondi-to-manly-walk-sydney-australia-6836224",
+            "urlToImage": "https://www.travelandleisure.com/thmb/dgsjxNkEpaVbIYHNaY9C-eGxURw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-gaerloch-reserve-bondi-bronte-lead-SYDAUSCOASTWALK1222-be1a703051b5425096d434b279370811.jpg",
+            "publishedAt": "2024-02-21 T08:45:00Z",
+            "content": "Con más de 150 millas de costa espectacular, Sydney es un paraíso para los amantes del océano. Sus exuberantes promontorios ofrecen vistas desde todos los ángulos, especialmente cuando los delfines y las ballenas ofrecen un espectáculo, y los suburbios junto a la playa están llenos de cultura y sabor locales."
+        },
+        {
+            "source": {
+                "id": "national-geographic",
+                "name": "National Geographic",
+                "publishedAt": "2024-02-20T09:15:00Z"
+            },
+            "author": "Laura Rodriguez",
+            "title": "Una guía de Gante, la ciudad rebelde y olvidada de Bélgica",
+            "description": "La histórica ciudad de Gante combina su rico patrimonio con la modernidad, con sitios de la UNESCO y arte callejero vibrante por todas partes.",
+            "url": "https://www.nationalgeographic.com/travel/article/guide-to-ghent-belgium",
+            "urlToImage": "https://i.natgeofe.com/n/ab27b9f0-58ee-486e-ab89-e293acd76752/ghentLEAD_3x2.jpg?w=718&h=479",
+            "content": "Hoy en día, puedes encontrar evidencia del ilustre pasado de la ciudad en su centro histórico, hogar de un campanario declarado Patrimonio de la Humanidad por la UNESCO y el Gravensteen, una fortaleza de piedra que se dice que se inspiró en los castillos cruzados. Y aunque su apogeo ya ha quedado atrás, los ganteses cuentan con orgullo la historia de su caída en desgracia como prueba de su vena rebelde."
+        },
+        {
+            "source": {
+                "id": "thetravelmagazine",
+                "name": "thetravelmagazine"
+            },
+            "author": "Alex Turner",
+            "title": "¡Descubre un sinfín de aventuras náuticas con Gran Canaria Blue!",
+            "description": "Gran Canaria, un verdadero paraíso acuático, cuenta con 60 kilómetros de playas vírgenes a lo largo de una fascinante costa de 236 kilómetros. Descrito como un continente en miniatura, ofrece diversas actividades a familias, parejas.",
+            "url": "https://www.thetravelmagazine.net/discover-endless-nautical-adventures-with-gran-canaria-blue/",
+            "urlToImage": "https://www.thetravelmagazine.net/wp-content/uploads/Gloria-Palace-Royal-3.jpg",
+            "publishedAt": "2024-02-23 T12:10:00Z",
+            "content": "Con hoteles estratégicamente ubicados que ofrecen comodidad y seguridad para disfrutar de experiencias náuticas, que van desde la pesca en alta mar hasta el surf en las olas del Atlántico, Gran Canaria satisface a todos. Gracias a una temperatura de 22 grados centígrados durante todo el año, la isla invita a los amantes del aire libre a disfrutar de los encantos del océano todos los días."
+        }
+    ],
+    "consejos": [
+        {
+            "source": {
+                "id": "worldpackers",
+                "name": "Worldpackers"
+            },
+            "author": "Maria Rodriguez",
+            "title": "13 tips de viaje que deberías conocer para tu próxima aventura",
+            "description": "Estos 13 tips de viaje, sobre seguridad, armado de itinerario, equipaje y más, son esenciales para tener un buen viaje.",
+            "url": "https://www.worldpackers.com/es/articles/tips-de-viaje",
+            "urlToImage": "https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/ezu9zrfemktsxmzfnxlj",
+            "publishedAt": "2024-02-24 T09:30:00Z",
+            "content": "Sin romper tu presupuesto con estos consejos prácticos, Desde alojamientos asequibles hasta opciones de transporte económicas, aprende a planificar un viaje inolvidable sin gastar de más. Explora destinos sorprendentes sin preocuparte por tu billetera con estos consejos inteligentes para viajeros con presupuesto ajustado."
+        },
+        {
+            "source": {
+                "id": "trabajarporelmundo",
+                "name": "Trabajar Por El Mundo"
+            },
+            "author": "Emily Taylor",
+            "title": "Ganar dinero mientras viajas por el mundo ¿Qué opciones reales hay?",
+            "description": "Seguro que últimamente te estás topando mucho con la palabra nómada digital, o estás viendo personas que viajan por el mundo pero no sabes muy bien cómo lo financian… y la pregunta que surge en la cabeza es… ¿Qué opciones hay para ganar dinero mientras viajas?",
+            "url": "https://trabajarporelmundo.org/ganar-dinero-mientras-viajas/",
+            "urlToImage": "https://trabajarporelmundo.org/wp-content/uploads/2018/05/40-formas-de-ganar-dinero-mientras-viajas.jpg.webp",
+            "publishedAt": "2024-02-25 T11:15:00Z",
+            "content": "En 2013 te dimos algunas claves sobre los trabajos que te permiten viajar por el mundo, no obstante, aunque estos trabajos siguen estando en lo más alto de las lista de empleo para viajar, los tiempos han cambiado, y aunque existían estas formas para ganar dinero mientras viajas, hay muchas que se han ido perfeccionando."
+        },
+        {
+            "source": {
+                "id": "intermundial",
+                "name": "Intermundial"
+            },
+            "author": "John Smith",
+            "title": "Consejos de seguridad para viajeros solitarios",
+            "description": "Viajar solo puede ser emocionante, pero es importante mantener la seguridad.",
+            "url": "https://www.intermundial.es/blog/consejos-para-viajar-en-solitario/",
+            "urlToImage": "https://www.intermundial.es/blog/wp-content/uploads/2014/06/viajarsolo.jpg",
+            "publishedAt": "2024-02-26 T14:00:00Z",
+            "content": " Descubre consejos prácticos para viajeros solitarios, Desde la elección de destinos seguros hasta la comunicación efectiva, sigue estos consejos para disfrutar de una experiencia de viaje solo segura y divertida. Explora el mundo con confianza, incluso si decides aventurarte en solitario, con estos consejos expertos de seguridad."
+        },
+        {
+            "source": {
+                "id": "travel-experience",
+                "name": "Travel Experience"
+            },
+            "author": "Victoria Obrador",
+            "title": "5 formas en las que la tecnología está mejorando la experiencia del viajero",
+            "description": "Descubre la ayuda de las últimas innovaciones tecnológicas.",
+            "url": "https://www.cm.com/es-es/blog/mejorar-experiencia-del-viajero-tecnologia/",
+            "urlToImage": "https://www.cm.com/cdn/web/en/blog/featured/travel-experience-blogpost.jpg",
+            "publishedAt": "2024-02-27 T12:45:00Z",
+            "content": "las últimas innovaciones tecnológicas que pueden facilitar y mejorar tu experiencia mientras exploras nuevos destinos, desde aplicaciones útiles hasta dispositivos inteligentes, explora cómo la tecnología puede hacer que tu viaje sea más conveniente y emocionante. Descubre cómo integrar la última tecnología en tu aventura para hacer de cada viaje una experiencia más fluida y emocionante."
+        },
+        {
+            "source": {
+                "id": "lostcoconuts",
+                "name": "Lost Coconuts"
+            },
+            "author": "María & Toni",
+            "title": "15 Consejos para viajar de manera sostenible.",
+            "description": "Descubre cómo ser un viajero más sostenible.",
+            "url": "https://www.lostcoconuts.com/consejos-para-viajar-sostenible/",
+            "urlToImage": "https://www.lostcoconuts.com/wp-content/uploads/molinos-porto-santo.jpg",
+            "publishedAt": "2024-02-28 T10:30:00Z",
+            "content": "Minimizando tu impacto ambiental y apoyando prácticas turísticas responsables, desde la elección de alojamientos sostenibles hasta la gestión de residuos, sigue estos consejos para viajar de manera más ecológica y responsable. Conviértete en un viajero consciente del medio ambiente y descubre cómo cada pequeña elección puede contribuir a un planeta más saludable mientras exploras el mundo."
+        }
+    ],
+    "gastronomia": [
+        {
+            "source": {
+                "id": "gastroactitud",
+                "name": "Gastro Actitud"
+            },
+            "author": "María de Michelis",
+            "title": "El boom asiático en Buenos Aires",
+            "description": "Comer con palitos es el nuevo leitmotiv de Palermo. Ya sea en formato de cantina asiática, barra o restaurante, la onda oriental suena expansiva y potente en el barrio favorito de los porteños a la hora de salir a comer.",
+            "url": "https://www.gastroactitud.com/pista/el-boom-asiatico-en-buenos-aires/",
+            "urlToImage": "https://www.gastroactitud.com/wp-content/uploads/2018/06/BuenosAires.jpg",
+            "publishedAt": "2024-03-01 T09:45:00Z",
+            "content": "Es difícil encontrar buen sushi o buen ramen en Buenos Aires: Mirutaki es una de esas excepciones que confirman las reglas de la cocina japonesa: sabores netos, cortes inobjetables, materia prima noble. Detalles que hacen la diferencia."
+        },
+        {
+            "source": {
+                "id": "culinary-adventure",
+                "name": "Culinary Adventure"
+            },
+            "author": "Antonio Rodriguez",
+            "title": "Los sabores de Chianti: las fiestas que no hay que perderse",
+            "description": "Además de ser conocido en todo el mundo por sus impresionantes paisajes, Chianti también es apreciado por sus inconfundibles sabores y perfumes.",
+            "url": "https://www.visittuscany.com/es/ideas/i-sapori-del-chianti-le-feste-da-non-perdere/",
+            "urlToImage": "https://www.visittuscany.com/shared/make/immagini/badia-a-passignano-chianti-toscana-shutterstock_1175492053_D0k.jpg",
+            "publishedAt": "2024-03-02 T11:00:00Z",
+            "content": "Aquí, una buena copa de vino Sangiovese, acompañada de comidas sanas y genuinas, aderezada con aceite de oliva virgen extra, concilia a todos: por eso en Chianti hay tantos festivales dedicados a los productos alimenticios y al vino."
+        },
+        {
+            "source": {
+                "id": "excelenciasgourmet",
+                "name": "World Chef"
+            },
+            "author": "Redacción Excelencias Gourmet",
+            "title": "Mujeres en la gastronomía: Sabores con sexto sentido",
+            "description": "No es todo lo rápido que quisiéramos, ni con el impacto que en términos mediáticos y de reconocimiento merecen. Pero el mito de que la presencia femenina en cocinas estaba reservada al espacio doméstico, se ha ido desmontando a diario en el sector de la alta gastronomía iberoamericana.",
+            "url": "https://excelenciasgourmet.com/es/opinion/mujeres-en-la-gastronomia-sabores-con-sexto-sentido",
+            "urlToImage": "https://excelenciasgourmet.com/sites/default/files/styles/slideshow_large/public/2020-03/gastronomia-mujeres.jpg?itok=UUGMpaTt",
+            "publishedAt": "2024-03-03 T14:30:00Z",
+            "content": "El talento —ya lo sabemos y puede que a estas alturas incluso sea un tópico— no va de géneros. Aun así es una reflexión que conviene recordar siempre, sobre todo cuando persisten estereotipos y cánones enraizados hasta la médula de nuestras sociedades, que convierten en desafíos realidades que deberían estar naturalizadas. Revisemos si no las trayectorias de algunas de las mujeres más influyentes en la restauración en Iberoamérica, para conocer el reto permanente que les supone emprender un cambio."
+        },
+        {
+            "source": {
+                "id": "thetravelmagazine",
+                "name": "The Travel Magazine"
+            },
+            "author": "Emma Johnson",
+            "title": "En busca de superalimentos en Perú",
+            "description": "En las montañas de los Andes, los incas cultivaban una variedad de cultivos que se han convertido en los superalimentos actuales. Pruébalos en Lima, pero mejor aún ve a Cusco y al Valle Sagrado para descubrir de dónde vienen.",
+            "url": "https://www.dessertdelights.com/paris-sweet-treats",
+            "urlToImage": "https://www.thetravelmagazine.net/wp-content/uploads/Mil-Dish-2.jpg",
+            "publishedAt": "2024-03-04 T12:15:00Z",
+            "content": "Estoy contemplando uno de los sitios arqueológicos más emblemáticos del mundo: Machu Picchu. Esta antigua ciudadela inca, situada en lo alto de una colina empinada con vistas al valle del río Urubamba, no sólo es visualmente impresionante sino que también es una notable hazaña de ingeniería con la montaña remodelada para cultivar superalimentos."
+        },
+        {
+            "source": {
+                "id": "nationalgeographic",
+                "name": "National Geographic"
+            },
+            "author": "Katherine Parker-Magyar",
+            "title": "los 6 mejores restaurantes de mariscos en Cape Cod y sus islas",
+            "description": "Cape Cod, Martha's Vineyard y Nantucket son famosos por sus excelentes mariscos. Ya sea que busque un panecillo de langosta con mantequilla o un plato humeante de sopa de almejas, estos son los mejores restaurantes que sirven estos clásicos tan queridos.",
+            "url": "https://www.nationalgeographic.com/travel/article/paid-content-6-of-the-best-seafood-restaurants-in-cape-cod-and-its-islands",
+            "urlToImage": "https://i.natgeofe.com/n/51c56fc7-4f61-4803-a3a4-8a8325180727/oysters1_3x2.jpg?w=1260&h=840",
+            "publishedAt": "2024-03-05 T10:00:00Z",
+            "content": "Aire salado, una brisa de verano y el sonido del Océano Atlántico chocando contra una costa rocosa. El verano en la costa de Nueva Inglaterra es un mundo en sí mismo, y la escena está incompleta sin degustar un cremoso sándwich de cangrejo de caparazón blando."
+        }
+    ],
+    "aventuras": [
+        {
+            "source": {
+                "id": "wideoyste",
+                "name": "wideoyste"
+            },
+            "author": "Marco Barneveld ",
+            "title": "Explorando los gigantes de la selva",
+            "description": "En lo profundo del Amazonas hay un entorno salvaje que rodea todo lo que lo habita.",
+            "url": "https://www.adventuremania.com/amazon-expedition",
+            "urlToImage": "https://magazine.wideoyster.com/wp-content/uploads/2020/04/Amazone-Rainforest-Brazil-075.jpg",
+            "publishedAt": "2024-03-06 T09:30:00Z",
+            "content": "A la luz parpadeante de la moribunda fogata, la sombra del aguijón en la parte superior de la cola del escorpión parece más grande de lo que es. Pero aún así. No es pequeño. Con un cuerpo de alrededor de diez centímetros de largo, se escabulle dibujado por la luz y el calor de las llamas a través de las hojas caídas en el suelo de la selva bajo mi hamaca."
+        },
+        {
+            "source": {
+                "id": "extreme-travel",
+                "name": "Extreme Travel"
+            },
+            "author": "Jake Turner",
+            "title": "La Patagonia chilena, un lugar de belleza infinita y salvaje",
+            "description": "La Patagonia es uno de los espacios donde la soledad recóndita y la desolación son los protagonistas.",
+            "url": "https://www.elespanol.com/viajes/20221114/patagonia-chilena-lugar-belleza-infinita-salvaje/718428583_0.html",
+            "urlToImage": "https://s1.elespanol.com/2022/11/14/actualidad/718438974_228700407_1706x960.jpg",
+            "publishedAt": "2022-11-14 T20:29:00Z",
+            "content": "La gran magnitud de la naturaleza y su exuberante belleza se puede encontrar en numerosos lugares del mundo, pero la Patagonia chilena es uno de los lugares más destacados para apreciarlo. La Patagonia es uno de los espacios donde la soledad recóndita y la desolación son los protagonistas, una cuestión también para tener en cuenta y proteger la naturaleza en un viaje a estos lugares."
+        },
+        {
+            "source": {
+                "id": "lavanguardia",
+                "name": "lavanguardia"
+            },
+            "author": "PEDRO GARCÍA LUACES",
+            "title": "Descubriendo la Gran Barrera de Coral",
+            "description": "El navegante y explorador británico James Cook fue el primer europeo en avistar la Gran Barrera de Cora.",
+            "url": "https://www.lavanguardia.com/historiayvida/edad-moderna/20200611/481694951966/gran-barrera-coral-james-cook-descubrio.html#:~:text=El%20navegante%20y%20explorador%20brit%C3%A1nico,dar%C3%ADa%20de%20bruces%20con%20ella.",
+            "urlToImage": "https://www.lavanguardia.com/files/image_948_465/uploads/2020/06/09/5f15f1d1d6ac1.jpeg",
+            "publishedAt": "2020-06-11 T12:30:00Z",
+            "content": "durante su primer viaje para la Royal Society a bordo del HMB Endeavour. Era el 11 de junio de 1770, y el capitán, más que atisbarla, se daría de bruces con ella. La nave con la que bordeaba la costa de Australia, rumbo al norte, desde el extremo sudoriental del continente encalló en el arrecife. Siete semanas tardaría la tripulación en arreglar la avería."
+        },
+        {
+            "source": {
+                "id": "Ruteon",
+                "name": "Ruteon"
+            },
+            "author": "Ruteon",
+            "title": "Las cinco cumbres vírgenes que nunca se han escalado",
+            "description": "A día de hoy todavía existen algunas cimas que por varias razones nadie ha podido encumbrar oficialmente",
+            "url": "https://ruteon.com/noticias/noticias-de-actualidad/las-cinco-cumbres-virgenes-que-nunca-se-han-coronado/",
+            "urlToImage": "https://ruteon.com/wp-content/uploads/2021/11/spiti-g85e9b435c_1920-980x649.jpg",
+            "publishedAt": "2021-11-24 T12:45:00Z",
+            "content": "Si pensabas que ya no quedaban cimas por coronar en nuestro planeta, debes saber que te equivocas. Según los últimos datos, se calcula que hay una veintena de montes que todavía no han tenido presencia humana en sus picos.Si bien es cierto que todos los ocho miles ya han sido encumbrados, existen algunos siete miles que por razones religiosas, políticas o simplemente, por dificultad, aún no tienen dueño."
+        },
+        {
+            "source": {
+                "id": "wild-exploration",
+                "name": "Wild Exploration"
+            },
+            "author": "Emma Turner",
+            "title": "Safari en África: una aventura inigualable",
+            "description": "Explora la magia de África con una experiencia única de safari y yoga.",
+            "url": "https://www.elconfidencialdigital.com/articulo/noticias/explora-magia-africa-experiencia-unica-safari-yoga/20230918092338637014.html",
+            "urlToImage": "https://www.elconfidencialdigital.com/asset/thumbnail,1920,1080,center,center/media/elconfidencialdigital/images/2023/09/18/2023091809223729928.jpg",
+            "publishedAt": "2024-03-10 T10:30:00Z",
+            "content": "Si alguna vez has soñado con una aventura suprema en la naturaleza salvaje de África, entonces tenemos la mejor propuesta para ti: un safari podría ser exactamente lo que necesitas.Ahora, imagina combinar esa experiencia única con la tranquilidad y la conexión espiritual del yoga. "
+        }
+    ]
+}
